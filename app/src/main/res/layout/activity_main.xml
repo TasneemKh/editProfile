@@ -5,12 +5,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#FEFDFC"
-
     tools:context=".MainActivity">
 
     <View
         android:id="@+id/view"
-        android:layout_width="411dp"
+        android:layout_width="match_parent"
         android:layout_height="174dp"
         android:background="#F53D62"
         app:layout_constraintStart_toStartOf="parent"
@@ -26,7 +25,6 @@
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
         android:layout_marginBottom="8dp"
-        android:src="@drawable/Icon"
         app:layout_constraintBottom_toBottomOf="@+id/textView9"
         app:layout_constraintEnd_toStartOf="@+id/textView9"
         app:layout_constraintStart_toStartOf="parent"
@@ -302,7 +300,6 @@
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
         android:layout_marginBottom="8dp"
-        android:src="@mipmap/gender_round"
         app:layout_constraintBottom_toBottomOf="@+id/textView4"
         app:layout_constraintEnd_toStartOf="@+id/textView4"
         app:layout_constraintStart_toStartOf="parent"
